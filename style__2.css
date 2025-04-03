@@ -472,5 +472,19 @@ body {
     position: relative;
   }
 }
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  margin-top: 400px;
+}
+.arrow:hover {
+  cursor: pointer;
+  border: 3px solid red;
+}
 
 /*# sourceMappingURL=style__2.css.map */
