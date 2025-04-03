@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+body {
+  font-family: "MontserratBlack", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.header .header__logo {
+  display: flex;
+  align-items: center;
+}
+.header .head__content__right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+.header .head__content__right .head__wrapper {
+  display: flex;
+  gap: 10px;
+}
+.header .head__content__right .head__wrapper .header__address__text {
+  color: #AEAEAE;
+}
+.header .header__lan {
+  display: inline-flex;
+  align-items: center;
+}
+.header .header__lan .lan__ru:hover {
+  cursor: pointer;
+  background-color: #E6E6F0;
+  border-radius: 8px;
+}
+.header .header__lan .lan__ukr:hover {
+  cursor: pointer;
+  background-color: #E6E6F0;
+  border-radius: 8px;
+}
+.header .header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header__menu .header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header__menu .header__nav .header__nav__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+.header .header__menu .header__nav .header__nav__list .header__nav__item {
+  display: inline-block;
+}
+.header .header__menu .header__nav .header__nav__list .header__nav__item a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+  border: 2px solid transparent;
+}
+.header .header__menu .header__nav .header__nav__list .header__nav__item a:hover {
+  border-bottom: 2px solid red;
+  color: red;
+  cursor: pointer;
+}
+.header .head__content__right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.image {
+  background-image: url("./images/team.png");
+  width: 1440px;
+  height: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image .letter {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 63px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
